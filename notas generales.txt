@@ -1,0 +1,115 @@
+Battleship online
+
+REGLAS IMPRECINDIBLES
+	STREMEAR PROCESO
+		2 veces a la semana
+	HACER BITACORAS
+		cada avance
+			fecha
+		nombre: "archivos editados" "que se hizo" "hora de guardado"
+	
+
+Fechas limites
+	inicio: 26 Septiembre
+	
+	Entrega 1
+		Limite: 4 Octubre
+		-Una version jugable 1v1 en consola (Python)
+		
+	Entrega 2
+		Limite: 11 Octubre
+		-Aspectos visuales de la entrega pasada 
+			-Colores definidos
+			-iconos
+			-animaciones?
+		-IA Basico
+		-Info del juego
+		
+	Entrega 3
+		limite: 18 Octubre
+		-juego personalizable
+		-Juego en LAN
+		
+		-Empezar pruebas ONLINE?
+	
+	Entrega 4
+		//*********limite:23 Octubre************//
+		-Juego completamente en linea
+		
+	Extras
+		Iniciar sesion/Facebook
+		Ranked
+		3v3
+		Skins del juego por promocionarnos
+		
+
+modos de juego:
+
+	vs IA 
+		personalizado
+		modos predeterminados
+		dificultades
+	PVP
+		amigos
+			personalizado
+			modos predeterminados
+		ranked
+			 modo competitivo
+		normal (aleatorio)
+			modo competitivo
+			modos randome 
+	3v3
+			mecanicas 3v3
+				pones igual en el tablero y se ataca en los dos enemigos y te dice en otras 
+				dos pantallas si le diste o no, dibujo1.jpg
+		amigos
+			personalizado
+			modos predeterminados
+		
+		normal (aleatorio)
+			modo competitivo
+			modos randome 
+		
+Concepto de battleship
+	2 tableros de 10x10 por jugador
+		1- tus barcos y ataques enemigos
+		2- tus ataques acertados y no acertados
+	4 piezas
+		2 de 3
+		1 de 2
+		1 de 4
+		1 de 5
+	no puedes poner barcos juntos
+		1 bloque de separación 
+	
+	3 colores
+		blanco
+			no acertado
+		rojo
+			acertado
+		negro (3v3)
+			doble acierto
+ventanas de información 
+	leaderboard
+	
+	manual de uso/reglas
+	
+guardar la información 
+	
+
+Requerimientos para hacerlo
+
+	lenguajes
+		html
+		python
+			C#
+		base de datos (mySQL, excel google)
+		javascript
+		
+	horario
+		5 horas a la semana min
+		20 horas de trabajo esperado
+		fines de semana
+	
+	Hacer diagrama de clases
+	
