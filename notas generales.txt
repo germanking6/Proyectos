@@ -41,7 +41,7 @@ Fechas limites
 		Ranked
 		3v3
 		Skins del juego por promocionarnos
-		
+		queue de movimientos
 
 modos de juego:
 
