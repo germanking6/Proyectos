@@ -25,8 +25,8 @@ class BoatBoard:
 			for pos in ship.positions:
 					if(pos == position):
 							self.map[pos.x][pos.y] = -1
-							ship.healt -= 1
-							ship.remove(pos)
+							ship.health -= 1
+							#ship.remove(pos) arreglar el remove de la lista de posicion del ship
 							if(ship.isAlive()==False):
 									self.boats.remove(ship)
 									self.boatsLeft -= 1

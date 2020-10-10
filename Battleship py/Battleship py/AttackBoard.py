@@ -15,7 +15,12 @@ class AttackBoard:
 	def __str__(self):
 		return self.map
 	def showMap(self):
+		print("  0    1    2    3    4    5    6    7    8    9")
+		print("╔════╦════╦════╦════╦════╦════╦════╦════╦════╦════╗")
 		for ii in  range(self.tam):
 			for i in range(self.tam):
-				print(str(self.map[i][ii]) + ", ", end='')
-			print(" ")
+				print("║",str(self.map[i][ii]) + ", ", end='',)
+			print("║",ii)
+			if (ii<=(self.tam-2)):
+				print("╠════╬════╬════╬════╬════╬════╬════╬════╬════╬════╣")
+		print ("╚════╩════╩════╩════╩════╩════╩════╩════╩════╩════╝")
