@@ -6,12 +6,12 @@ class AttackBoard:
 		for i in range(size):
 			aux = []
 			for ii in range(size):
-					aux.append(0)
+					aux.append("O")
 			self.map.append(aux)
 			self.tam = size
 
 	def bombard(self, pos, val):
-		self.map[pos.x][pos.y] += val
+		self.map[pos.x][pos.y] = val
 	def __str__(self):
 		return self.map
 	def showMap(self):

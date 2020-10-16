@@ -22,14 +22,13 @@ Fechas limites
 			-Colores definidos
 			-iconos
 			-animaciones?
-		-IA Basico
 		-Info del juego
 		
 	Entrega 3
 		limite: 18 Octubre
 		-juego personalizable
 		-Juego en LAN
-		
+		-IA Basico
 		-Empezar pruebas ONLINE?
 	
 	Entrega 4

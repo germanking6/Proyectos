@@ -1,0 +1,10 @@
+logs
+
+
+10/10/2020
+[2:00 am] German BoatBoard.py  dar formato al tablero
+[2:10 am] German AttackBoard.py dar formato al tablero
+[3:00 am] German Game.py crear funcion para iniciar movimientos
+[3:40 am] German Game.py crear 2 funciones de ataque para cada jugador
+[4:00 am] German BoatBoard Arreglar error ortografico de healt -> health / y deshabilitar ship.remove (debugear codigo)
+// hasta ahora el programa ataca pero no cambia nada a menos que sea una posicion donde exista un barco, si no hay barco no cambia la matriz 

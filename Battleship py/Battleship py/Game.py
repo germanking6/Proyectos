@@ -52,7 +52,6 @@ class Game:
 
 	def movimientoPlayer1(self):
 		self.players[0].hud.mostrarHUD()
-		print (self.players[1])
 		posX = int(input("posicion a la cual quieres atacar x: "))
 		posY= int(input("posicion a la cual quieres atacar y: "))
 		pos=Position(posX,posY)
@@ -60,7 +59,6 @@ class Game:
 
 	def movimientoPlayer2(self):
 		self.players[1].hud.mostrarHUD()
-		print (self.players[0])
 		posX = int(input("posicion a la cual quieres atacar x: "))
 		posY= int(input("posicion a la cual quieres atacar y: "))
 		pos=Position(posX,posY)

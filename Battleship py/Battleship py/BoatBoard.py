@@ -7,7 +7,7 @@ class BoatBoard:
 		for i in range(size):
 			aux = []
 			for ii in range(size):
-				aux.append(0)
+				aux.append("O")
 			self.map.append(aux)
 		self.boats = []
 		self.boatsLeft = 0
@@ -30,8 +30,10 @@ class BoatBoard:
 							if(ship.isAlive()==False):
 									self.boats.remove(ship)
 									self.boatsLeft -= 1
-							return True
-		return False
+							return "Ø"
+					else:
+						self.map[pos.x][pos.y] = 2
+		return "Õ"
 
 	def __str__(self):
 		return self.map
